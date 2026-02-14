@@ -1,6 +1,7 @@
 from .simulation import SimulationConfig, SimulationResult, run_simulation
 from .plotting import plot_lab_frame, plot_sample_views, print_angles
 from .gui import launch_interactive_viewer
+from .webapp import create_dash_app
 
 __all__ = [
     "SimulationConfig",
@@ -10,4 +11,5 @@ __all__ = [
     "plot_sample_views",
     "print_angles",
     "launch_interactive_viewer",
+    "create_dash_app",
 ]
